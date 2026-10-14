@@ -45,9 +45,11 @@ References:
 - Expected size: `72705392` bytes.
 
 NPL-1.1 applies its no-profit restriction to the application as a whole and
-expressly includes indirect financial gain. The model must not be published
-for this application or referenced by it until that compatibility is
-confirmed and documented.
+expressly includes indirect financial gain. The application owner has
+confirmed that the application is free, has no advertising, paid feature,
+subscription, invoice, or team financing from this model. Any future
+monetization requires removing the model or obtaining a separately compatible
+replacement before release.
 
 ## Other runtime providers
 

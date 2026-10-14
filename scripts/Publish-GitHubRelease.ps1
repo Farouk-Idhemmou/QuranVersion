@@ -118,8 +118,13 @@ foreach ($file in $files) {
     $uploaded = $false
     for ($attempt = 1; $attempt -le 4 -and -not $uploaded; $attempt++) {
         try {
+            $contentType = if ($file.Extension -eq '.woff2') {
+                'font/woff2'
+            } else {
+                'application/octet-stream'
+            }
             Invoke-RestMethod -Method Post -Uri "$uploadBase`?name=$encodedName" `
-                -Headers $script:headers -ContentType 'font/woff2' -InFile $file.FullName | Out-Null
+                -Headers $script:headers -ContentType $contentType -InFile $file.FullName | Out-Null
             $uploaded = $true
         } catch {
             if ($attempt -eq 4) { throw }

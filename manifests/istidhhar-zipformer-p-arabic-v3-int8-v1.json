@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "resource_id": "istidhhar-zipformer-p-arabic-v3-int8",
+  "version": "1",
+  "repository": "Farouk-Idhemmou/QuranVersion",
+  "release_tag": "istidhhar-zipformer-p-arabic-v3-int8-v1",
+  "generated_at_utc": "2026-10-14T20:21:00Z",
+  "asset_count": 1,
+  "total_size_bytes": 72705392,
+  "assets": [
+    {
+      "name": "zipformer_p_arabic_v3.int8.onnx",
+      "size_bytes": 72705392,
+      "sha256": "6a5ddafa9c5e5c01260d30264031b341785bdc152e9ef1d569b41c8c278508eb",
+      "url": "https://github.com/Farouk-Idhemmou/QuranVersion/releases/download/istidhhar-zipformer-p-arabic-v3-int8-v1/zipformer_p_arabic_v3.int8.onnx"
+    }
+  ]
+}

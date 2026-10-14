@@ -25,16 +25,18 @@ if ($files.Count -eq 0) {
     throw "No assets found in $assetRoot"
 }
 
-$assets = foreach ($file in $files) {
-    $hash = Get-FileHash -Algorithm SHA256 -LiteralPath $file.FullName
-    [ordered]@{
-        name = $file.Name
-        size_bytes = $file.Length
-        sha256 = $hash.Hash.ToLowerInvariant()
-        url = "https://github.com/$Repository/releases/download/$Tag/$($file.Name)"
+$assets = @(
+    foreach ($file in $files) {
+        $hash = Get-FileHash -Algorithm SHA256 -LiteralPath $file.FullName
+        [ordered]@{
+            name = $file.Name
+            size_bytes = $file.Length
+            sha256 = $hash.Hash.ToLowerInvariant()
+            url = "https://github.com/$Repository/releases/download/$Tag/$($file.Name)"
+        }
     }
-}
-$totalSizeBytes = ($files | Measure-Object -Property Length -Sum).Sum
+)
+$totalSizeBytes = [long] ($files | Measure-Object -Property Length -Sum).Sum
 
 $manifest = [ordered]@{
     schema_version = 1
