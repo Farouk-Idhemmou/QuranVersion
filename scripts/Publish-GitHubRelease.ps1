@@ -87,7 +87,8 @@ if ($null -eq $release) {
 $remoteAssets = @{}
 $page = 1
 do {
-    $batch = @(Invoke-GitHubJson -Method Get -Uri "$apiBase/releases/$($release.id)/assets?per_page=100&page=$page")
+    $batchResponse = Invoke-GitHubJson -Method Get -Uri "$apiBase/releases/$($release.id)/assets?per_page=100&page=$page"
+    $batch = @($batchResponse | Where-Object { $null -ne $_ })
     foreach ($asset in $batch) {
         $remoteAssets[$asset.name] = $asset
     }
@@ -134,7 +135,8 @@ foreach ($file in $files) {
 $publishedAssets = @()
 $page = 1
 do {
-    $batch = @(Invoke-GitHubJson -Method Get -Uri "$apiBase/releases/$($release.id)/assets?per_page=100&page=$page")
+    $batchResponse = Invoke-GitHubJson -Method Get -Uri "$apiBase/releases/$($release.id)/assets?per_page=100&page=$page"
+    $batch = @($batchResponse | Where-Object { $null -ne $_ })
     $publishedAssets += $batch
     $page++
 } while ($batch.Count -eq 100)
