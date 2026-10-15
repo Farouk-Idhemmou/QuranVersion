@@ -50,11 +50,3 @@ confirmed that the application is free, has no advertising, paid feature,
 subscription, invoice, or team financing from this model. Any future
 monetization requires removing the model or obtaining a separately compatible
 replacement before release.
-
-## Other runtime providers
-
-The application currently also references EveryAyah recitation audio,
-provider-specific corrected audio, remotely hosted tafsir JSON, high-resolution
-page images, and OpenStreetMap Nominatim. These are not mirrored here because
-each collection requires its own redistribution permission and attribution.
-
