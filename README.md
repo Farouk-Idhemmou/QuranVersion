@@ -21,7 +21,7 @@ assets; they are not committed to Git history.
 | Istidhhar Arabic Zipformer model | Mirrored under NPL-1.1 | Quran-Lab / Natlu | GitHub Release asset, for the free non-profit application only |
 | QCF page layout | Bundled in the application | QUL / Tarteel | Not downloaded at runtime |
 | Quran Foundation API responses | Not mirrored or used at runtime by Istidhhar | Quran Foundation | Standalone redistribution is prohibited by the Developer Terms |
-| Recitation audio and tafsir files | Not mirrored | Their respective providers | Rights must be verified per collection |
+
 
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before adding or updating
 any resource.
