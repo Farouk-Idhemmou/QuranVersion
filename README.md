@@ -17,7 +17,7 @@ assets; they are not committed to Git history.
 
 | Family | Status | Upstream | Distribution |
 |---|---|---|---|
-| QCF V4 Tajweed page fonts | Mirrored for application use | QUL / Tarteel | GitHub Release assets `p1.woff2` … `p604.woff2` |
+| QCF V4 Tajweed page fonts | Mirrored for application use | QUL / Tarteel | Single runtime pack `qcf-v4-tajweed-v3.2.zip`; immutable source assets remain in `qcf-v4-tajweed-v3.2` |
 | Istidhhar Arabic Zipformer model | Mirrored under NPL-1.1 | Quran-Lab / Natlu | GitHub Release asset, for the free non-profit application only |
 | QCF page layout | Bundled in the application | QUL / Tarteel | Not downloaded at runtime |
 | Quran Foundation API responses | Not mirrored or used at runtime by Istidhhar | Quran Foundation | Standalone redistribution is prohibited by the Developer Terms |

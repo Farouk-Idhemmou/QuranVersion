@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "resource_id": "qcf-v4-tajweed-woff2-pack",
+  "version": "3.2-pack-v1",
+  "repository": "Farouk-Idhemmou/QuranVersion",
+  "release_tag": "qcf-v4-tajweed-v3.2-pack-v1",
+  "generated_at_utc": "2026-10-16T00:59:55Z",
+  "source_release_tag": "qcf-v4-tajweed-v3.2",
+  "source_manifest": "https://raw.githubusercontent.com/Farouk-Idhemmou/QuranVersion/qcf-v4-tajweed-v3.2/manifests/qcf-v4-tajweed-v3.2.json",
+  "asset_count": 2,
+  "total_size_bytes": 51002888,
+  "assets": [
+    {
+      "name": "qcf-v4-tajweed-v3.2.zip",
+      "size_bytes": 51002798,
+      "sha256": "e7c9c3a0f8f04586ac69de9cb768e2dced4bfc98b5bd13bd22a42fcf34748680",
+      "url": "https://github.com/Farouk-Idhemmou/QuranVersion/releases/download/qcf-v4-tajweed-v3.2-pack-v1/qcf-v4-tajweed-v3.2.zip"
+    },
+    {
+      "name": "qcf-v4-tajweed-v3.2.zip.sha256",
+      "size_bytes": 90,
+      "sha256": "91acbf84333e8e92575548d719d8ec89a840bf0d93f83dc16818cdd805a026fc",
+      "url": "https://github.com/Farouk-Idhemmou/QuranVersion/releases/download/qcf-v4-tajweed-v3.2-pack-v1/qcf-v4-tajweed-v3.2.zip.sha256"
+    }
+  ]
+}
