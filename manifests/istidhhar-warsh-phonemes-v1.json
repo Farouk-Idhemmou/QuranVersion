@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "resource_id": "istidhhar-warsh-phonemes",
+  "version": "1",
+  "repository": "Farouk-Idhemmou/QuranVersion",
+  "release_tag": "istidhhar-warsh-phonemes-v1",
+  "generated_at_utc": "2026-10-18T00:00:00Z",
+  "riwayah": "warsh",
+  "asset_count": 1,
+  "total_size_bytes": 9410013,
+  "assets": [
+    {
+      "name": "warsh_phonemes.json",
+      "size_bytes": 9410013,
+      "sha256": "72c32af05c0baa32f0e991f2e1bc36679f771947f1f31986390258db495aaa58",
+      "url": "https://github.com/Farouk-Idhemmou/QuranVersion/releases/download/istidhhar-warsh-phonemes-v1/warsh_phonemes.json"
+    }
+  ]
+}

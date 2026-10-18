@@ -51,6 +51,17 @@ subscription, invoice, or team financing from this model. Any future
 monetization requires removing the model or obtaining a separately compatible
 replacement before release.
 
+## Istidhhar Warsh phoneme reference
+
+- Upstream project: <https://github.com/M97Chahboun/quran-database-verifier>.
+- Mirrored asset: `warsh_phonemes.json`, used only as the sequential Warsh
+  recognition reference downloaded with Istidhhar resources.
+- Expected SHA-256:
+  `72c32af05c0baa32f0e991f2e1bc36679f771947f1f31986390258db495aaa58`.
+- Expected size: `9410013` bytes.
+- The mirrored file is byte-identical to the previously used immutable
+  application resource; keep this provenance notice with future versions.
+
 ## Warsh Tajweed semantic annotations
 
 - Generator: `quranic-phonemizer==3.0.5`, MIT licensed:
