@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "resource_id": "warsh-tajweed-page-pack",
+  "version": "1",
+  "repository": "Farouk-Idhemmou/QuranVersion",
+  "release_tag": "warsh-tajweed-v1",
+  "generated_at_utc": "2026-10-18T09:24:23Z",
+  "riwayah": "warsh",
+  "tariq": "al_azraq",
+  "page_count": 604,
+  "ayah_count": 6214,
+  "asset_count": 2,
+  "total_size_bytes": 2642264,
+  "assets": [
+    {
+      "name": "warsh-tajweed-v1.zip",
+      "size_bytes": 2642177,
+      "sha256": "0898c80ad1325a36031a24f45a2ca6c1649c051c94e88de89cc594c70273b4f8",
+      "url": "https://github.com/Farouk-Idhemmou/QuranVersion/releases/download/warsh-tajweed-v1/warsh-tajweed-v1.zip"
+    },
+    {
+      "name": "warsh-tajweed-v1.zip.sha256",
+      "size_bytes": 87,
+      "sha256": "8d176cfa89b55b46e6213b70c7178e59aeadf4a217b0f8fee4f46f534dc4b2d4",
+      "url": "https://github.com/Farouk-Idhemmou/QuranVersion/releases/download/warsh-tajweed-v1/warsh-tajweed-v1.zip.sha256"
+    }
+  ]
+}

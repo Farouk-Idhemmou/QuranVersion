@@ -50,3 +50,18 @@ confirmed that the application is free, has no advertising, paid feature,
 subscription, invoice, or team financing from this model. Any future
 monetization requires removing the model or obtaining a separately compatible
 replacement before release.
+
+## Warsh Tajweed semantic annotations
+
+- Generator: `quranic-phonemizer==3.0.5`, MIT licensed:
+  <https://github.com/QUD-Technologies/quranic-phonemizer>.
+- Quran source profile: `king-fahd-warsh-v2`, Warsh through al-Azraq.
+- The generated source strings were checked against all 6,214 Warsh ayat in
+  the application's Quran database. Every non-trivial spelling difference was
+  additionally compared with the official QUL resource 581 preview.
+- The included `UthmanicWarshV21East.ttf` remains attributed to the King Fahd
+  Glorious Quran Printing Complex.
+- The annotations are a technical candidate, not a religious certification.
+  They must be visually reviewed against an authorised Warsh Tajweed mushaf
+  and approved by a qualified Warsh teacher before being described as
+  certified.

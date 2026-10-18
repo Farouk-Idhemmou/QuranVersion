@@ -19,6 +19,7 @@ assets; they are not committed to Git history.
 |---|---|---|---|
 | QCF V4 Tajweed page fonts | Mirrored for application use | QUL / Tarteel | Single runtime pack `qcf-v4-tajweed-v3.2.zip`; immutable source assets remain in `qcf-v4-tajweed-v3.2` |
 | Istidhhar Arabic Zipformer model | Mirrored under NPL-1.1 | Quran-Lab / Natlu | GitHub Release asset, for the free non-profit application only |
+| Warsh Tajweed annotations | Generated semantic candidate | QUD Technologies / QPC King Fahd Warsh v2 | Single runtime pack `warsh-tajweed-v1.zip`, split into 604 page files |
 | QCF page layout | Bundled in the application | QUL / Tarteel | Not downloaded at runtime |
 | Quran Foundation API responses | Not mirrored or used at runtime by Istidhhar | Quran Foundation | Standalone redistribution is prohibited by the Developer Terms |
 
